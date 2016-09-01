@@ -20,7 +20,10 @@ pyglet.resource.path = ['res']
 pyglet.resource.reindex()
 backgroundImage = pyglet.resource.image('background.png')
 blocksImage = pyglet.resource.image('blocks.png')
-gametypes.TetrominoType.class_init(blocksImage, BLOCK_SIZE)
+dmmyblockImage = pyglet.resource.image('blocks3.png')
+gametypes.TetrominoType.class_init(blocksImage, dmmyblockImage, BLOCK_SIZE, )
+
+
 
 """ init game state """
 queue = gametypes.NextTetrominoQueue(500, 200, BLOCK_SIZE, QUEUE_SET)
