@@ -11,7 +11,7 @@ GRID_WIDTH = 10
 GRID_HEIGHT = 20
 BLOCK_SIZE = 25
 QUEUE_SET = 2
-
+""
 window = pyglet.window.Window(WIDTH, HEIGHT)
 window.set_vsync(False)
 
